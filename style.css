@@ -1,8 +1,8 @@
 :root {
-  --ink-green: #1b3a2f; /* deep green used for the card border & button */
-  --ink-green-dark: #12261e; /* hover state for the button */
+  --ink-green: #1b3a2f; /* used for the card border & button */
+  --ink-green-dark: #12261e; /* hover state for button */
   --parchment: #f2ecdb; /* page background */
-  --card-bg: #fbf8f0; /* card surface, slightly lighter than the page */
+  --card-bg: #fbf8f0; /* card surface, lighter than the page */
   --gold: #a6812e; /* accent color for labels and "Excellent" remark */
   --rose: #9c3b3b; /* used for the "Failed" / invalid remark */
   --ink: #22281f; /* main text color */
@@ -29,7 +29,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Faint horizontal rules across the whole page, evoking ruled ledger paper */
+/* Faint horizontal rules across the whole page */
 .ledger-lines {
   position: fixed;
   inset: 0;
